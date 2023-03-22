@@ -1,12 +1,17 @@
 name: tiktok_app
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=2.19.4 <3.0.0'
+  sdk: ">=2.19.4 <3.0.0"
 
 dependencies:
+  cloud_firestore: ^4.4.5
+  firebase_auth: ^4.3.0
+  firebase_core: ^2.8.0
+  firebase_storage: ^11.0.16
+  get: ^4.6.5
   flutter:
     sdk: flutter
 
