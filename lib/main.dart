@@ -25,7 +25,7 @@ class MainApp extends StatelessWidget {
         scaffoldBackgroundColor: backgroundColor,
       ),
       title: 'TikTok clone',
-      home: const SignUpScreen(),
+      home: const SignInScreen(),
     );
   }
 }

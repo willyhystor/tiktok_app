@@ -12,6 +12,7 @@ dependencies:
   firebase_core: ^2.8.0
   firebase_storage: ^11.0.16
   get: ^4.6.5
+  image_picker: ^0.8.7
   flutter:
     sdk: flutter
 

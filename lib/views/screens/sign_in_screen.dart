@@ -74,7 +74,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   borderRadius: BorderRadius.circular(5),
                 ),
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () => _signIn(),
                   child: const Center(
                     child: Text(
                       'Sign In',
@@ -114,5 +114,9 @@ class _SignInScreenState extends State<SignInScreen> {
         ),
       ),
     );
+  }
+
+  void _signIn() async {
+    authController.signIn(_emailController.text, _passwordController.text);
   }
 }
